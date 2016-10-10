@@ -1,0 +1,28 @@
+What happens when you initialize a repository? Why do you need to do it?
+- git init -- will create the .git meta directory with meta data
+- git status will tell me how it looks like (and not added files to staging area)
+- on init nothing is committed because - remember - I must commit manually
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+- it is mediator, we add only real project files to it to avoid all garbage (like .tmp or whatever)
+- the repository is on the other side of the backup, only commits goes there (and what's staged)
+- working area is everything on my pc folder with all the temp files, executables and so on
+
+How can you use the staging area to make sure you have one commit per logical change?
+- git diff 
+- git diff --staged
+- git add [needed files]
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- milestones (linear branches)
+- special versions (easy mode, italian)
+- experimental versions
+- context switching; when I start something new; master branch never breaks always work and experiment on brances
+
+How do the diagrams help you visualize the branch structure?
+- classic tree graph...good to make things easy
+  like this: git log --graph --oneline master coins
+  
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- cons: I don't trust automation, although I believe the algorithm is good; 
+- pros: pretty much obvious it aids and speeds up the merging
