@@ -1,0 +1,34 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+- it was easy to spot changes between files
+- I knew the bug was in the new file, so watched for + lines
+- comparing versions of the line it was easy to spot error from context
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+- supporting my memory (and gosh I tend to forget quickly) and keeps changes in context
+- quick way to revert to working version on bugs
+- fast find'n'fix typos
+- centralized repository!
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+- I am THE programmer, for years being a "god" for my creations, there is just no other thing in univers except me and my creations that could choose when to save ;-)
+- I can save on local file automatically against system crash ot power loss, but only on logical changes I will save
+- commits musty be the right number -- not too much and not too low numbers
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+- Git is for coders; html+css+js files are working together and I need these with all current changes in given time (snapshot)
+- a snapshot of all files changed helps to keep logical changes at track
+- google docs is for one-document at a time users (writing a CV is not a project with thousand parts)
+
+How can you use the commands git log and git diff to view the history of files?
+- too general a question but here it is: loock back in history (logical changes) for whatever purpose...
+- git log [stats] and key down
+- copy/paste commit hash (uniquue id)
+- git diff old_commit new_commit //where new one is down on the screen)
+
+How might using version control make you more confident to make changes that could break something?
+- because I can quickly find and revert to old working state
+- commit checkout combined with diff gives me the way to find the error
+- experiment without breaking code and freaking out :)
+
+Now that you have your workspace set up, what do you want to try using Git for?
+- are you serious?
